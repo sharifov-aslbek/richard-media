@@ -1,0 +1,183 @@
+@media (max-width:1250px) {
+    .companions .container .img-two {
+        display: none;
+    }
+
+    .companions .container .img {
+        margin-bottom: 50px;
+    }
+}
+
+
+@media (max-width:1200px) {
+    .header .container .bottom-content .img-content {
+        display: none;
+    }
+
+    .header {
+        height: 100%;
+        padding-bottom: 70px;
+    }
+
+}
+
+@media (max-width: 1025px) {
+    .header .container .bottom-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header .container .content-menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .header .container .bottom-content .text-content .subtitle {
+        width: 500px;
+    }
+
+    .header .container .content-menu .menu {
+        gap: 15px;
+        padding-right: 10px;
+    }
+
+    .hero .container img {
+        display: none;
+    }
+
+    .hero .container .btn {
+        display: block;
+        margin-bottom: 50px;
+    }
+}
+
+/* 975px */
+@media (max-width: 975px) {
+    body {
+        max-width: 900px;
+    }
+
+    .menu .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .menu .container .img {
+        display: none;
+    }
+
+    .companions .container .img {
+        display: none;
+    }
+
+    .about .container .text-content {
+        display: none;
+    }
+
+    .contacts .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .cards .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .about-burger .container .text-content {
+        background: url(../images/burger-photo.svg) no-repeat center / cover;
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    .clients .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .important-about .container .subtitle {
+        width: 500px;
+    }
+
+    .contacts .container .text-content {
+        display: none;
+    }
+
+    .about-burger .container .text-content .title,
+    .about-burger .container .text-content .titlet {
+        color: gray;
+    }
+
+    .about-burger .container .img-content {
+        display: none;
+    }
+
+    .footer .container {
+        margin-top: -10px;
+    }
+}
+
+/* 770px */
+@media (max-width: 770px) {
+    .header .container .bottom-content .text-content .subtitle {
+        width: 400px;
+    }
+}
+
+/* 525px */
+@media (max-width: 540px) {
+    .header .container .content-menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .header .container .content-menu i {
+        display: block;
+    }
+
+    .header .container .content-menu .menu {
+        display: none;
+    }
+
+    .hero .container .text-content .subtitle {
+        width: 400px;
+    }
+
+    .important-about .container .subtitle {
+        width: 350px;
+    }
+}
+
+/* 430px */
+@media (max-width: 480px) {
+    .header .container .bottom-content {
+        display: none;
+    }
+
+    .hero .container .text-content .subtitle {
+        width: 400px;
+    }
+}
+
+/* 375px */
+@media (max-width: 375px) {
+    .hero .container .text-content .subtitle {
+        width: 300px;
+    }
+
+    
+}
