@@ -160,6 +160,41 @@
     .important-about .container .subtitle {
         width: 350px;
     }
+
+    .about .container .image-content img {
+        max-width: 300px;
+        object-fit: cover;
+    }
+
+    .contacts .container .image-content img {
+        max-width: 300px;
+        object-fit: cover;
+    }
+
+    .menu .container .text-content {
+        max-width: 300px;
+    }
+
+    .cards .container .card .subtitle {
+        max-width: 280px;
+    }
+
+    .important-about .container .subtitle {
+        max-width: 310px;
+    }
+
+    .download-section .container {
+        max-width: 310px;
+        margin: 0 auto;
+    }
+
+    .footer .container .text-content .form input {
+        max-width: 250px;
+    }
+
+    .footer .container .menu-companions {
+        display: none;
+    }
 }
 
 /* 430px */
@@ -179,5 +214,4 @@
         width: 300px;
     }
 
-    
 }
