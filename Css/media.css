@@ -52,6 +52,10 @@
         display: block;
         margin-bottom: 50px;
     }
+
+    .hero .container .img img {
+        width: 1000px;
+    }
 }
 
 /* 975px */
@@ -94,7 +98,8 @@
     }
 
     .about-burger .container .text-content {
-        background: url(../images/burger-photo.svg) no-repeat center / cover;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ,
+        url(../images/burger-photo.svg) no-repeat center / cover ;
         text-align: center;
         padding: 40px 20px;
     }
@@ -118,8 +123,13 @@
 
     .about-burger .container .text-content .title,
     .about-burger .container .text-content .titlet {
-        color: gray;
+        color: white;
     }
+
+    .about-burger .container .text-content .subtitle {
+        color: white;
+    }
+
 
     .about-burger .container .img-content {
         display: none;
@@ -134,6 +144,16 @@
 @media (max-width: 770px) {
     .header .container .bottom-content .text-content .subtitle {
         width: 400px;
+    }
+
+    .important-about .container .subtitle {
+        max-width: 490px;
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .about .container .image-content img {
+        max-width: 500px;
     }
 }
 
@@ -179,10 +199,6 @@
         max-width: 280px;
     }
 
-    .important-about .container .subtitle {
-        max-width: 310px;
-    }
-
     .download-section .container {
         max-width: 310px;
         margin: 0 auto;
@@ -212,6 +228,33 @@
 @media (max-width: 375px) {
     .hero .container .text-content .subtitle {
         width: 300px;
+    }
+
+    .footer .container .text-content .form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .important-about .container .subtitle {
+        width: 300px;
+        font-size: 10px;
+        line-height: 20px;
+    }
+
+    .hero .container .text-content .subtitle {
+        font-size: 15px;
+        width: 270px;
+    }
+
+    .about-burger .container .text-content {
+        width: 280px;
+    }
+
+    .about-burger .container .text-content .subtitle {
+        display: none;
     }
 
 }
